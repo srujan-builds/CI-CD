@@ -2,7 +2,7 @@ name: Data Pipeline CI/CD
 
 on: 
   push:
-    branches: [ "main" ] # Runs every time you push to the main branch
+    branches: [ "master" ] # Runs every time you push to the main branch
 
 jobs:
   build-and-test:
